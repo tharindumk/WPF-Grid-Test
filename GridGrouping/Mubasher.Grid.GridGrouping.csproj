@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>..\..\Source\Build\Debug\</OutputPath>
+    <WarningLevel>0</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <OutputPath>..\..\Source\Third Party Libraries\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputPath>..\..\Source\Third Party Libraries\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningLevel>0</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\..\Source\Third Party Libraries\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Control\EditTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GridGroupingControlMultiColumn.cs" />
+    <Compile Update="GridGroupingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ToolTipAdv\ToolTipAdv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Filters\ExpressionFieldDescriptor.cs" />
+    <Compile Remove="Filters\ExpressionFieldEvaluator.cs" />
+    <Compile Remove="Filters\FieldDescriptor.cs" />
+    <Compile Remove="Filters\FilterCondition.cs" />
+    <Compile Remove="Filters\FilterConditionCollection.cs" />
+    <Compile Remove="Filters\GridConditionalFormat.cs" />
+    <Compile Remove="Filters\RecordFilterDescriptor.cs" />
+    <Compile Remove="Filters\RecordFilterDescriptorCollection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mubasher.ClientTradingPlatform.Infrastructure">
+      <HintPath>..\..\Source\Build\Debug\net8.0-windows10.0.22621.0\Mubasher.ClientTradingPlatform.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Mubasher.ClientTradingPlatform.Shared.Resources">
+      <HintPath>..\..\Source\Build\Debug\net8.0-windows10.0.22621.0\Mubasher.ClientTradingPlatform.Shared.Resources.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mubasher.Grid.GridGrouping", "Mubasher.Grid.GridGrouping.csproj", "{CA6B795C-CD57-4430-81BE-14C5E79B667C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\..\Source\Infrastructure\Infrastructure\Infrastructure.csproj", "{9E64739A-31F4-4234-926A-A4D693402695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Resources", "..\..\Source\Modules\Shared\Shared.Resources\Shared.Resources.csproj", "{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Debug|x64.ActiveCfg = Debug|x86
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Debug|x86.ActiveCfg = Debug|x86
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Debug|x86.Build.0 = Debug|x86
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Release|x64.ActiveCfg = Release|x86
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Release|x86.ActiveCfg = Release|x86
+		{CA6B795C-CD57-4430-81BE-14C5E79B667C}.Release|x86.Build.0 = Release|x86
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|x64.ActiveCfg = Debug|x64
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|x64.Build.0 = Debug|x64
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|x86.ActiveCfg = Debug|x86
+		{9E64739A-31F4-4234-926A-A4D693402695}.Debug|x86.Build.0 = Debug|x86
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|x64.ActiveCfg = Release|x64
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|x64.Build.0 = Release|x64
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|x86.ActiveCfg = Release|x86
+		{9E64739A-31F4-4234-926A-A4D693402695}.Release|x86.Build.0 = Release|x86
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|x64.ActiveCfg = Debug|x64
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|x64.Build.0 = Debug|x64
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|x86.ActiveCfg = Debug|x86
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Debug|x86.Build.0 = Debug|x86
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|x64.ActiveCfg = Release|x64
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|x64.Build.0 = Release|x64
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|x86.ActiveCfg = Release|x86
+		{AB1B80DE-EC62-4749-9BE8-E1E93F99A402}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mttfs:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ..\\..\\Source\\Infrastructure\\Infrastructure\\Infrastructure.csproj
+		SccProjectName0 = ../../Source/Infrastructure/Infrastructure
+		SccAuxPath0 = http://mttfs:8080/tfs/defaultcollection
+		SccLocalPath0 = ..\\..\\Source\\Infrastructure\\Infrastructure
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Mubasher.Grid.GridGrouping.csproj
+		SccProjectName1 = .
+		SccAuxPath1 = http://mttfs:8080/tfs/defaultcollection
+		SccLocalPath1 = .
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\Source\\Modules\\Shared\\Shared.Resources\\Shared.Resources.csproj
+		SccProjectName2 = ../../Source/Modules/Shared/Shared.Resources
+		SccAuxPath2 = http://mttfs:8080/tfs/defaultcollection
+		SccLocalPath2 = ..\\..\\Source\\Modules\\Shared\\Shared.Resources
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

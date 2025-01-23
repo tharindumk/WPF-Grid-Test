@@ -1,0 +1,6 @@
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.csproj.AssemblyReference.cache
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.Properties.Resources.resources
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.csproj.GenerateResource.cache
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.csproj.CoreCompileInputs.cache
+D:\SourceCodeNew\Others\GridGrouping\obj\Release\net8.0-windows\Mubasher.Grid.GridGrouping.sourcelink.json
